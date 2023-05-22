@@ -29,7 +29,11 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'port-0-tailwind-deploy-test-f69b2mlhaa9b38.sel4.cloudtype.app',
+    '127.0.0.1',
+    'localhost',
+]
 
 
 # Application definition
